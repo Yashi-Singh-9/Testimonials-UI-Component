@@ -94,10 +94,12 @@ body {
   background: #1a3496;
 }
 .testimonial-section .testimonials-wrapper {
+  overflow: hidden;
   width: 100%;
 }
 @media (max-width: 378px) {
   .testimonial-section .testimonials-wrapper {
+    overflow: visible;
     margin-left: -10px;
     width: 50%;
     word-wrap: break-word;
