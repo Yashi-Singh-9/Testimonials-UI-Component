@@ -2,11 +2,47 @@
 
 This project implements a **Testimonials UI Component** which is a responsive testimonial slider. It features a clean design with customer reviews presented in a carousel-like format. The layout adapts for both desktop and mobile views, ensuring an optimal user experience across devices. This project was built using **HTML**, **CSS (LESS preprocessor)**, and **JavaScript**.
 
+## Installation and Usage
+
+### Prerequisites
+
+If you don’t have **LESS** installed locally, you can still use this project without any issues. You have two options to compile LESS into CSS:
+
+### Option 1: Using Precompiled CSS
+If you prefer not to install LESS, you can simply use the precompiled **CSS** file that comes with this project:
+
+1. Download or clone the repository:
+    ```bash
+    git clone https://github.com/Yashi-Singh-9/Testimonials-UI-Component.git
+    ```
+
+2. Navigate to the project folder and open the **index.html** file in your browser.
+
+### Option 2: Using LESS Locally
+If you'd like to compile the LESS code into CSS on your local machine:
+
+1. **Install LESS**:
+   If you don’t have **LESS** installed, you can install it via **Node.js**. First, ensure you have **Node.js** installed. Then, install LESS globally with the following command:
+   
+    ```bash
+    npm install -g less
+    ```
+
+2. **Compile LESS to CSS**:
+   Once LESS is installed, navigate to the project folder and run the following command to compile the `style.less` file into `style.css`:
+
+    ```bash
+    lessc style.less style.css
+    ```
+
+3. **Open the Project**:
+   Now you can open the **index.html** file in your browser, and the styling will work correctly.
+
 ## Demo
 
 You can view the live demo of this project at: [Demo Link](https://yashi-singh-9.github.io/Testimonials-UI-Component/)
 
-Screenshot
+<b>Screenshot</b>
 
 ![Screenshot](images/Screenshot.png)
 
