@@ -4,8 +4,7 @@ This project implements a **Testimonials UI Component** which is a responsive te
 
 ## Demo
 
-You can view the live demo of this project at:  
-[Demo Link](https://yashi-singh-9.github.io/Testimonials-UI-Component/)
+You can view the live demo of this project at: [Demo Link](https://yashi-singh-9.github.io/Testimonials-UI-Component/)
 
 Screenshot
 
